@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Samuel Jason</title>
+        <!--icone do titulo-->
+        <link rel="shortcut icon" href="resouces/icon.png"/>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--principal-->
+        <section id="main">
+            <!--navegação-->
+           
+            <nav>
+                <!--logo-->
+                <a href="#" class ="logo"></a>
+                <!--menu-->
+                <ul class="menu">
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Portifolio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <!--Linguagem-->
+                <a href="#" class="lang">pt-br</a>
+            </nav>
+            <div>
+
+                <div class="name">
+                    <p>Olá</p>
+                    <h1>Meu nome é Samuel Jason</h1>
+                    <!--Detalhes-->
+                    <p class="details">Desenvolvedor Web</p>
+                <!--Curriculo-->
+                <a href="resources/CurriculoPrincipal.pdf" class="cv-btn">Donwload Cv</a>
+            </div>
+            
+            
+            <div class="social">
+                <a href="https://www.linkedin.com/in/samueljason/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Samuel-Jason"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+            
+            <img class="home-img" src="resources/home.png">
+            <div class="arrow"></div>
+        </section>
+        <section id="about">
+            <!---TEXTO-->
+            <div class="about-text">
+                <h1>Sobre mim</h1>
+                <h2>Desenvolvedor</h2>
+                <p>Me chamo Samuel Jason de Souza, tenho 20 anos sou de São Paulo - SP,
+                    curso Analise e Desenvolvimento de Sistemas na UNINOVE e Desenvolvimento 
+                    de Sistemas na ETEC de Itaquera. Tenho conhecimentos em HTML5, CSS3, JavaScript,
+                    MySQL e estou estudando PHP.
+                </p>
+                <p>Estou em busca de um estagio para aperfeiçoar meus conhecimentos e 
+                    me colocar no mercado.
+                 </p>
+                <!--bottom mais detalhes na proxima linha-->
+            </div>
+            <!--sobre model img-->
+            <div class="about-model">
+                <!-- MINHA FOTO -->
+            </div>
+        </section>
+        <section id="services">
+            <div class="s-heading">
+                <h1>Portifólio</h1>
+                <p>Meus Projetos</p>
+            </div>
+            <div class="s-b-container">
+                <!----------------------box 1------------------------>
+                <div class="s-box">
+                    <!--box img-->
+                    <a href="app2/inicio.html">
+                    <div class="s-b-img">
+                        <!---type--->
+                        <div class="s-type">Mosquito Game</div>
+                        <!-----img------>
+                        <img src="resources/mosquito.jpg">
+                    </a>
+                    </div>
+                    <!--box text-->
+                    <div class="s-b-text">
+                        <a href="#">Jogo desenvolvido em JavaScript puro.</a>
+                    </div>
+                </div>
+                <!-----------------------box 2------------------------>
+                <div class="s-box">
+                    <!--box img-->
+                    <a href="app/index.html">
+                    <div class="s-b-img">
+                        <!---type--->
+                        <div class="s-type">Calculadora</div>
+                        <!-----img------>
+                        <img src="resources/calculadora.jpg">
+                    </a>
+                    </div>
+                    <!--box text-->
+                    <div class="s-b-text">
+                        <a href="#">Uma calculadora criada com HTML5, CSS3 e JS.</a>
+                    </div>
+                </div>
+                <!-----------------------box 3------------------------>
+                <div class="s-box">
+                    <!--box img-->
+                    <div class="s-b-img">
+                        <!---type--->
+                        <div class="s-type">front end</div>
+                        <!-----img------>
+                        <img src="resources/s1.png">
+                    </div>
+                    <!--box text-->
+                    <div class="s-b-text">
+                        <a href="#">Projeto em andamento ...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <div class="contact-title">
+                <h1 contact-title>Meu Contato</h1>
+                <p>Fale comigo para saber mais</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-text">
+                    <span><i class="c-text fa fa-map-marker"></i> São Paulo - SP</span>
+                    <span><i class="c-text fas fa-envelope"></i> samuelljason@gmail.com</span>
+                    <span><i class="c-text fa fa-whatsapp"></i> 11 94993-2246</span>    
+                </div>
+                    <div class="contact-form-div">
+                        <form class="contact-form" action="" method="past">
+                            <input class="contact-field" type="text" name="name" class="text-box" placeholder="Seu Nome" required/>
+                            <input class="contact-field" type="email" name="email" class="text-box" placeholder="Seu Email" required/>
+                            <textarea class="contact-field" name="message" rows="5" cols="80" placeholder="Sua mensagem..." required></textarea>
+                            <input class="contact-btn" type="submit" name="submit" value="Enviar">
+                        </form>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="rodape">
+           <span>Desenvolvido por Samuel Jason</span>
+        </div>
+    </body>
+</html>
