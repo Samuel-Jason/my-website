@@ -228,10 +228,10 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #242423;
 }
 .s-b-text a{
     margin: 0px;
-    color: #FFFFFF;
     font-size: 1.1rem;
     font-family: calibri;
     display: block;
